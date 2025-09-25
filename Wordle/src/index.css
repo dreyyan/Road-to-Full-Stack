@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+:root {
+    --primary: #F8F8F8;
+    --secondary: #818384;
+    --background: #121213;
+
+    margin: 0;
+}
+
+html, body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
