@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+:root {
+  --background: hsl(0, 50%, 95%);
+  --color-primary: hsl(185, 50%, 90%);
+  --color-secondary: hsl(185, 50%, 10%);
+  --color-tertiary: hsl(245, 80%, 20%);
+  --color-accent: hsl(125, 80%, 20%);
+  --error: hsl(0, 63%, 55%);
+
+  background-color: var(--color-primary);
+  margin: 0;
+}
+
+.dark {
+  --color-primary: hsl(185, 50%, 10%);
+  --color-secondary: hsl(185, 50%, 90%);
+  --color-tertiary: hsl(245, 80%, 80%);
+  --color-accent: hsl(125, 80%, 80%);
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400; /* Regular */
+
+  padding: 4%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700; /* Bold for emphasis */
+}
